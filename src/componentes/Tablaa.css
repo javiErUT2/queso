@@ -1,0 +1,66 @@
+/* Tablaa.css */
+.custom-table {
+    border: 2px solid #000; /* Grosor del borde de la tabla */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse; /* Quita los bordes internos de la tabla */
+    height: 80vh; /* Ajusta la altura de la tabla al 80% de la altura de la ventana */
+  }
+  
+  .custom-table thead {
+    background-color: yellow; /* Cambia el fondo a amarillo */
+  }
+  
+  .custom-table th {
+    border: 2px solid #000; /* Grosor del borde de las celdas del encabezado */
+    padding: 8px; /* Añade espacio alrededor del texto del encabezado */
+    text-align: center; /* Centra el texto en las celdas del encabezado */
+    background-color: white; /* Fondo blanco para las celdas del encabezado */
+    color: black; /* Texto en color negro */
+  }
+  
+  .custom-table tbody td {
+    border: none; /* Quita los bordes internos de las celdas del cuerpo de la tabla */
+    text-align: center; /* Centra el texto en las celdas del cuerpo de la tabla */
+    background-color: white; /* Fondo blanco para las celdas del cuerpo */
+    color: black; /* Texto en color negro */
+  }
+  
+  .custom-table tfoot {
+    border-top: 2px solid #000; /* Grosor del borde superior del pie de tabla */
+  }
+  
+  /* Tablaa.css */
+.bg-yellow {
+    background-color: yellow;
+  }
+  .form-input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .custom-table td {
+    font-size: 14px; /* Cambia el tamaño del texto según tus preferencias */
+  }
+  
+  .add-button-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+ 
